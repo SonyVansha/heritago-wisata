@@ -42,20 +42,20 @@ Login user
 
 ```json 
 {
-    "message": "Login berhasil",
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJzb255IiwiaWF0IjoxNzQ0Nzc3OTM1LCJleHAiOjE3NDQ3ODE1MzV9.urx8ZlMAajEyLlmo8OTZ9ZgYVSAcN8A-sBioESbuRtU",
-    "role": "admin"
+  "username": "sony",
+  "password": "adminsony"
 }
+
 ```
 
 **Response:**
 
 ```json
 {
-  "username": "sony",
-  "password": "adminsony"
+    "message": "Login berhasil",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJzb255IiwiaWF0IjoxNzQ0Nzc3OTM1LCJleHAiOjE3NDQ3ODE1MzV9.urx8ZlMAajEyLlmo8OTZ9ZgYVSAcN8A-sBioESbuRtU",
+    "role": "admin"
 }
-
 ```
 
 ### Tour
