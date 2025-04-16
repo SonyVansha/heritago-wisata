@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f2faff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+  .title {
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 50px;
+    color: #4a5c2c;
+    margin-top: 70px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #5fb6f3;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  
+  /* .wave-section {
+    position: relative;
+    width: 100%;
+    height: 100px; 
+    margin-top: 40px;
+  }
+  
+  .wave {
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+  
+  .wave-top {
+    top: 0;
+    z-index: 1;
+  }
+  
+  .wave-bottom {
+    top: 20px;
+    z-index: 0;
+  } */
+  
+  .text-bawah {
+    font-size: 11px;
+    margin-top: 120px;
+    color: #9ec3e0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+  }
+  
+  .btn {
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login {
+    background: linear-gradient(to right, #7cb6f3, #aba8f9);
+    color: white;
+    border: none;
+  }
+  
+  .create {
+    background-color: white;
+    color: #2cd5c4;
+    border: 2px solid #2cd5c4;
+  }
+  
