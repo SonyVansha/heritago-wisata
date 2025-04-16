@@ -10,6 +10,54 @@ https://localhost:5000/api
 
 ## 📄 Endpoints
 
+### User
+
+#### `POST /api/auth/register`
+
+Register user 
+
+**Request (Content-Type: application/json):**
+
+```json 
+{
+  "username": "sony",
+  "password": "adminsony",
+  "role": "admin"
+}
+```
+
+**Response:**
+
+```json
+{
+    "message": "Registrasi berhasil"
+}
+```
+
+#### `POST /api/auth/login`
+
+Login user 
+
+**Request (Content-Type: application/json):**
+
+```json 
+{
+  "username": "sony",
+  "password": "adminsony"
+}
+
+```
+
+**Response:**
+
+```json
+{
+  "username": "sony",
+  "password": "adminsony"
+}
+
+```
+
 ### Tour
 
 #### `GET /api/tour`

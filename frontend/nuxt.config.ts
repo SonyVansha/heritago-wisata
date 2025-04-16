@@ -3,6 +3,7 @@ export default defineNuxtConfig({
     'bootstrap/dist/css/bootstrap.min.css',
     'bootstrap-icons/font/bootstrap-icons.css'
   ],
+
   app: {
     head: {
       link: [
@@ -20,5 +21,7 @@ export default defineNuxtConfig({
         { charset: 'UTF-8' }
       ]
     }
-  }
+  },
+
+  compatibilityDate: '2025-04-16'
 })
